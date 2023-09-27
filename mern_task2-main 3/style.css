@@ -1,0 +1,50 @@
+* {
+    color: black;
+    background-color: #F8F0E5;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 1px;
+    padding: 1px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.tasks123 {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+
+    padding: 10px;
+}
+
+.intro {
+
+    padding: 10px;
+}
+
+
+.cover {
+    height: 90vh;
+    text-align: center;
+    width: 94%;
+    padding: 30px;
+    border-radius: 10px;
+
+}
+
+
+
+.task-link {
+    text-decoration: none;
+    color: #fff;
+    background-color: #343a40;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px;
+    display: inline-block;
+}
